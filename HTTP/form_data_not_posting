@@ -1,0 +1,8 @@
+Method of submitting a form using HTML only, posting to a URL:
+
+Check that your inputs each have "name" attributes.
+Check that your form has a "method" attribute with the value "post".
+Check that your form has a "action" attribute with the url to post to.
+Check that your form has opening and closing tags.
+Check that your form has a input button with a "type" attribute with the value "submit".
+Check that your application method/route is set to accept POST.
