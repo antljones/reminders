@@ -1,0 +1,5 @@
+To submit a form, an authenticity token is required to be submitted with the data. This is to prevent forgery, where forms are submitted to the url that weren't served to the user. If you are not going to use rail form helpers, then you need to add:
+
+form_tag 'url'
+
+or remove the requirement of the authenticity token. 
