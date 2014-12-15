@@ -1,0 +1,5 @@
+You are trying to use a date object as a string. You need to convert this object first with:
+
+date_object.strftime('%m/%d/%Y')
+
+(adding what other metacharacters you need for hours,minutes, etc)
