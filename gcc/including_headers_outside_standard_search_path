@@ -1,0 +1,5 @@
+gcc -c <filename.c> -o <outputfile> -I<headertoinclude>
+
+-c don't run the linker
+-o output to file
+-I header filename, don't add .h
