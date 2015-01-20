@@ -1,0 +1,3 @@
+This command will produce a logical backup made of insert statements which can be run on other dbms'. You may still need to remove postgres specfic namespace components and extensions from the output.
+
+pg_dump -d <databasename> -f <filename>.sql --column-inserts -v
