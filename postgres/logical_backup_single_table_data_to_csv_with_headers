@@ -1,0 +1,4 @@
+Copy table data in standard csv format with the table headers to a file. This assumes you are logged into the OS as a super user or the postgres user. Only absolute paths can be used.
+
+
+psql <databasename> -c "COPY <tablename> TO '<absolutefilepath>.csv' CSV HEADER;"
