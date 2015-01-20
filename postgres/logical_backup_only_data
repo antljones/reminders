@@ -1,0 +1,3 @@
+Only dumps the data contained in the tables and the queries used.
+
+pg_dump -d <databasename> -f <filename>.sql -a -v 
