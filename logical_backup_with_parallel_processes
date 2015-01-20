@@ -1,0 +1,11 @@
+Running pg_dump with several processes cna speed up the dump, which dumps different tables for each process.
+
+9.2 <
+
+You will need to halt the database server or prevent any exclusive locks on the database before performing this to avoid deadlocks/failed dumps and also use the --no-synchronizsed-snapshots option
+
+pgdump -d <databasename> -j <processnumber (postgres adds + 1)> -f <filepath> -v --no-synchonized-snapshots
+
+9.3 > 
+
+pg_dump -d <databasename> -j <processnumber (postgres adds + 1) -f <filepath> -v
