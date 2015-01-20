@@ -1,1 +1,1 @@
-pg_dump -d <databasename> -f <filepath> -v
+pg_dump -d <databasename> -f <filepath>.sql -v
