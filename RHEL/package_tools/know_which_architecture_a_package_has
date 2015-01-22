@@ -1,0 +1,9 @@
+You can find the package architecture by running:
+
+yum search <yourpackagename>
+
+This will list (usually multiple packages) containing the package name string. This is appended by the architecture type:
+
+x86 - for 32bit libraries
+x86_64 - for 64bit libraries
+.noarch - usable on both 32 and 64 bit architectures

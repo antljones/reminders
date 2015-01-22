@@ -1,0 +1,5 @@
+Run the command:
+
+systemctl list-unit-files --type=service
+
+This also shows whether these services have been enabled (see possible_systemd_service_states) 

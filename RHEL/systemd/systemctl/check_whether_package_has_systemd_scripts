@@ -1,0 +1,5 @@
+Some packages still use older sysv init scripts or none. To know what commands to use to set it up/enable it, you will need to know this. There may be other packages that need to be installed to use the systemd init scripts. To find if there is, run the following command:
+
+yum search <yourpackagename>
+
+Packages that have systemd scripts will have it in the description of the package or the name is appended with -systemd 

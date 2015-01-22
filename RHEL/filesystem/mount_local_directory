@@ -1,0 +1,15 @@
+Get a list of the attached devices.
+
+ls /dev
+
+Create a mount point.
+
+mkdir <pathtomountpoint>
+
+Add the disk
+
+List the attached devices and note the changes between the previous list.
+
+Run the command:
+
+mount -t <filesystemtype> <pathtoaddeddevice> <pathtomountpoint>

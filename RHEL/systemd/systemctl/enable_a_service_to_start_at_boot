@@ -1,0 +1,6 @@
+
+Run the command:
+
+systemctl enable <servicename>
+
+This will create a symlink from /etc/systemd/system/ /usr/lib/systemd/ which contains the init scripts so that the service can be started at boot.

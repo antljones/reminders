@@ -1,0 +1,7 @@
+Run either:
+
+systemctl status <servicename>
+
+or check the process with:
+
+ps -ef | grep <servicename>

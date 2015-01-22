@@ -1,0 +1,5 @@
+enabled: The service has a symlink in a .wants directory.
+
+disabled: The service does not have a symlink in a .wants directory.
+
+static: The service does not have an [Install] section in the init script so you can't enable or disable it. These are dependencies on other services and are managed automatically.
