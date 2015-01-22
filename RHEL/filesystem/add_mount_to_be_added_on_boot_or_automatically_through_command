@@ -1,0 +1,7 @@
+You need to add the mount point details to the /etc/fstab file.
+
+sudo vim /etc/fstab
+
+Add the mount:
+
+<devicepath> <mountpoint>                       <filesystemtype>    <options - http://en.wikipedia.org/wiki/Fstab>        <dump (if dump utility installed and 1 set, it will make a backup periodically, otherwise 0> <pass (file system integrity check using fsck on boot option: 1 for root, 2 for others, 0 don't check)>

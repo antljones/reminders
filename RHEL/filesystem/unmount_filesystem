@@ -1,0 +1,3 @@
+The following command will unmount the filesystem when the filesystem becomes free to unmount. Using this command can stop dead processes from ocurring when a remote filesystem's connection has been lost:
+
+sudo umount -l <mountpoint>

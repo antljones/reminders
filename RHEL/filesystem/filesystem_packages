@@ -1,0 +1,9 @@
+A list of filesystems and the packages required to support them through mounting:
+
+nfs:
+
+sudo yum -y install nfs-utils
+
+cifs:
+
+sudo yum -y install cifs-utils

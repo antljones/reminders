@@ -1,0 +1,3 @@
+Run the following command:
+
+mount -t <filesystemtype> -o username=<username> <host:pathtodirectory> <pathtolocalmountpoint>

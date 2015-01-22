@@ -1,0 +1,3 @@
+The following command will mount all of the filesystems listed in fstab except ones listed with noauto in the order that they are listed:
+
+mount -a
