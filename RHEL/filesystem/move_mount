@@ -1,0 +1,3 @@
+The following command will move the file tree under the old mount point to a new mountpoint without needing to unmount and mount again:
+
+mount -M <oldmountpoint> <newmountpoint>

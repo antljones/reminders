@@ -1,0 +1,19 @@
+notify - is called by the service to update the service manager (systemd component) about service state changes. These are:
+
+- ready 
+- reloading 
+- stopping 
+- status
+- error_code
+- buserror
+- mainpid
+- watchdog
+- fdstore
+
+systemctl - interface for retrieving information and managing the services through the service manager (systemd log component)
+
+journalctl - interface for retrieving information written by the systemd-journald service. By default it shows contents of the journal starting from the oldest entry. Additional arguments filter the output.
+
+loginctl - interface for retrieving user login information/details, setting requirements and changing/removing/listing sessions and dession data, e.g. session processes.
+
+

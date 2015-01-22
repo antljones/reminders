@@ -1,0 +1,5 @@
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sect-Managing_Services_with_systemd-Targets.html
+
+Run as the root user to go to single user mode, which will deactivate network connections so that the system can repaired:
+
+systemctl rescue
