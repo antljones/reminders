@@ -1,0 +1,9 @@
+Temporary changes:
+
+chcon
+
+
+semanage fcontext
+
+
+restorecon

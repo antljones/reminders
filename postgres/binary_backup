@@ -1,0 +1,6 @@
+Create a binary backup of the entire PostgreSQL cluster with the command:
+
+pg_basebackup -D <outputdirectory>
+
+To do this you will need a user with super user privileges or replication privileges. You can take a backup from the master or the standby (If the standby has been set up - see www.postgresql.org/docs/9.4/static/app-pgbasebackup.html)
+

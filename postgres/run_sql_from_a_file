@@ -1,0 +1,3 @@
+Change to the postgres user (other users will need to provide user/pw/host details
+
+psql -f <filename> <databasename>

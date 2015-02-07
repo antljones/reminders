@@ -1,0 +1,5 @@
+ls -Z <filename>
+
+format:
+
+|usergrouppublicacesssettings|  |user| |group| |selinuxuserclass|:|selinuxrole|:|type|:|level|      |filename|

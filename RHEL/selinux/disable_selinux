@@ -1,0 +1,9 @@
+Edit the config file:
+
+sudo vim /etc/selinux/config
+
+Change SELINUX to disabled
+
+Restart the computer:
+
+systemctl reboot

@@ -1,0 +1,7 @@
+List the available booleans - this command will only work if selinux's mode is set to enabled or permissive:
+
+semanage boolean -l
+
+Change a boolean:
+
+setsebool <booleanname> <on/off>

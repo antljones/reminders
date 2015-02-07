@@ -1,0 +1,3 @@
+Enforcing: SELinux denies access based on SELinux policy rules.
+Permissive: SELinux does not deny access, but denials are logged for actions that would have been denied if running in enforcing mode.
+Disabled: SELinux is disabled. Only DAC rules are used.

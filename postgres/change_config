@@ -1,0 +1,11 @@
+Changes are used by postgresql on the next reload or restart of the server.
+
+9.4 >
+
+ALTER SYSTEM <configurationparameter> <value>
+
+Changes are written to postgresql.auto.conf which is read after postgresql.conf.
+
+< 9.4
+
+Edit postgresql.conf

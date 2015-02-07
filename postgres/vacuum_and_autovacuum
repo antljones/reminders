@@ -1,0 +1,5 @@
+Removes records changed or deleted by the UPDATE command. The records are not removed from the table but are marked for deletion and are removed periodically with auto_vacuum or when the VACUUM command is used. This returns space that can be reused by the process but not to the OS and will not create a lock on the table. Autovacuum also analyses the tables.
+
+If there are a lot of updates occurring on the table, auto_vacuum may have to run more frequently. It may be required to increase the table space or 
+
+VACUUM FULL will write the table contents into a new file with no extra space, giving the space back to the operating system but requires a table lock.

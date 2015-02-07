@@ -1,0 +1,7 @@
+#If the changes to the configuration do not require downtime.
+pg_ctl reload
+
+
+#If the changes to configuration require a restart.
+pg_ctl restart
+systemctl restart postgresql

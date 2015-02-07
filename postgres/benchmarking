@@ -1,0 +1,11 @@
+The following command will create the test database and run a sequence of transactions, returning the time taken:
+
+pgbench -s <scalefactoroftestdbmm(1>) -i
+
+postgresql.conf parameters that need to be updated, depending on the values of the options used.
+
+wal_buffers
+shared_buffers
+max_connections
+
+If the database is large, consider running the pgbench client on a different machine and connect to the server.
